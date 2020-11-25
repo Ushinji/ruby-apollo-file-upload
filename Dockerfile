@@ -28,6 +28,7 @@ RUN apk update && \
         make \
         tzdata \
         build-base \
-        curl-dev
+        curl-dev \
+        sqlite-dev
 
 WORKDIR ${ROOT}
