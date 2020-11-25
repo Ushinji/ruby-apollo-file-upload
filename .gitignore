@@ -281,3 +281,6 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 # End of https://www.toptal.com/developers/gitignore/api/ruby,rails,react,node,macos,direnv
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
