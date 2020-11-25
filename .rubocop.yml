@@ -1,0 +1,59 @@
+AllCops:
+  Exclude:
+    - 'public/**/*'
+    - 'tmp/**/*'
+    - 'log/**/*'
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'src/**/*'
+    - 'node_modules/**/*'
+    - 'coverage/**/*'
+    - 'db/schema.rb'
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/NumericLiterals:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 160
+
+Naming/PredicateName:
+  Enabled: false

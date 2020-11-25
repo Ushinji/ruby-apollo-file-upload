@@ -1,4 +1,6 @@
-require_relative 'boot'
+# frozen_string_literal: true
+
+require_relative "boot"
 
 require "rails"
 # Pick the frameworks you want:
@@ -35,10 +37,10 @@ module App
     # Generation
     config.generators do |g|
       g.test_framework :rspec,
-            view_specs: false,
-            helper_specs: false,
-            controller_specs: false,
-            routing_specs: false
+                       view_specs: false,
+                       helper_specs: false,
+                       controller_specs: false,
+                       routing_specs: false
     end
   end
 end
