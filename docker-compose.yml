@@ -12,6 +12,17 @@ services:
       RAILS_ENV: development
     ports:
       - "3000:3000"
+  frontend:
+    build:
+      context: "./"
+      target: "base"
+    command: ["npm", "start"]
+    environment:
+      NODE_ENV: development
+    ports:
+      - "3001:3001"
+    volumes:
+      - ".:/app"
 volumes:
   bundle:
     driver: local
