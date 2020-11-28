@@ -7,7 +7,6 @@ describe "GET /api/health_check" do
 
   it "200を返すこと" do
     subject
-    puts response.body
     expect(response).to have_http_status(:ok)
   end
 end
