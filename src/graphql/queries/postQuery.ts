@@ -1,7 +1,7 @@
 import { gql } from '@apollo/client';
 
 export const POSTS = gql`
-  query {
+  query posts {
     posts {
       id
       image
