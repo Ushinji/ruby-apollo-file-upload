@@ -284,3 +284,6 @@ build-iPhoneSimulator/
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# CarrierWage upload path
+/public/uploads
