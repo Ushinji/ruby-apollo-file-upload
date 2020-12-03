@@ -1,7 +1,6 @@
 ## What is this?
 Image Upload Form using multipart/form-data.
 
-It is used  and
 ## Tech stack
 - ServerSide
   - Ruby: 2.7.2
